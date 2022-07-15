@@ -1,69 +1,46 @@
-### Objective
+# Getting Started with Create React App
 
-Your task is to connect to an external API to retrieve IP address information and display it like in the provided designs.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Brief
+## Available Scripts
 
-The challenge is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. You will find all the required assets in the `/images` folder. The assets are already optimized. To get the IP address location, you'll be using the Wookie IP API:
+In the project directory, you can run:
 
-    https://wookie.codesubmit.io/ipcheck?ip=<IP_ADDRESS>
+### `npm start`
 
-An example response for IP 8.8.8.8
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```json
-{
-	"as": {
-		"asn": 15169,
-		"domain": "https://about.google/intl/en/",
-		"name": "GOOGLE",
-		"route": "8.8.8.0/24",
-		"type": "Content"
-	},
-	"ip": "8.8.8.8",
-	"isp": "Google LLC",
-	"location": {
-		"city": "Mountain View",
-		"country": "US",
-		"geonameId": 5375480,
-		"lat": 37.38605,
-		"lng": -122.08385,
-		"postalCode": "94035",
-		"region": "California",
-		"timezone": "-08:00"
-	}
-}
-```
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-For authentication, pass the `"Authorization: Bearer WookieIP2022"` header.
-Cache the response in browser storage (local storage, session storage) to avoid making too many requests to the API.
+### `npm test`
 
-To generate the map, we recommend using [LeafletJS](https://leafletjs.com/), but you are free to use any mapping library of your choice.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Your users should be able to:
+### `npm run build`
 
--   View the optimal layout for each page depending on their device's screen size
--   See hover states for all interactive elements on the page
--   See their own IP address on the map on the initial page load
--   Search for any IP addresses and see the key information and location
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Evaluation Criteria
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
--   **TypeScript** best practices
--   Use Emotion (prefered) or Styles Components
--   Use `react-query` to call the API
--   Show us your work through your commit history
--   We're looking for you to produce working code with enough room to demonstrate how to structure components in a small program
--   Completeness: did you complete the features?
--   Correctness: does the functionality act in sensible, thought-out ways?
--   Maintainability: is it written in a clean, maintainable way?
--   Testing: is the system adequately tested?
+### `npm run eject`
 
-### CodeSubmit
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Please organize, design, test, and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Have fun coding!** 🚀
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-The Fetcher Team
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
