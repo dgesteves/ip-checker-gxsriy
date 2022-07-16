@@ -1,21 +1,21 @@
-import React, {useEffect} from 'react';
+import { ThemeProvider } from "styled-components";
+import { QueryClient, QueryClientProvider } from "react-query";
+import { ReactQueryDevtools } from "react-query/devtools";
+import { theme } from "./assets/styles/theme";
+import GlobalStyles from "./assets/styles/globalStyles";
+import IPAddressTrackerPage from "./pages/IPAddressTrackerPage";
 
 function App() {
-  useEffect(() => {
-    fetch('https://api.ipify.org/?format=json')
-    .then(response => response.json()).then(data => fetch(`https://wookie.codesubmit.io/ipcheck?ip=${data.ip}`,{
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer WookieIP2022'
-      }
-    }).then(response => response.json()).then(data => console.log(data)));
-  },[]);
+  const client = new QueryClient();
 
   return (
-    <div className="App">
-      <h1>Hello CodeSubmit!</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <QueryClientProvider client={client}>
+        <IPAddressTrackerPage />
+        <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+      </QueryClientProvider>
+    </ThemeProvider>
   );
 }
 
