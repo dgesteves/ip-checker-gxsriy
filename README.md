@@ -1,46 +1,151 @@
-# Getting Started with Create React App
+# IP Address Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Task Started at Fri 15 Jul 2022
+* Author: Diogo Esteves
 
-## Available Scripts
+#### Table of Contents
 
-In the project directory, you can run:
+1. [Coding Task](#task-solution)
+2. [Installation Instructions](#installation-instructions)
+3. [Test Instructions](#test-instructions)
+4. [Architecture](#architecture-decisions)
 
-### `npm start`
+## LightHouse Report:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="565" alt="Screen Shot 2022-06-27 at 12 32 43 AM" src="https://user-images.githubusercontent.com/34245953/175841075-7996f151-e22c-449e-b2ac-af3acc867640.png">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Application Solution Video:
 
-### `npm test`
+https://user-images.githubusercontent.com/34245953/175841325-950c5363-36fe-4659-80fa-0efc41fde6e0.mov
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Frontend Challenge
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Task can be found in the [Task info directory](task/README.md)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Task Solution
 
-### `npm run eject`
+## Installation Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Available Scripts
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### `npm run build`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Test Instructions
 
-## Learn More
+#### `npm test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### `npm run coverage`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Jest coverage reporter:
+
+1. run `npm test` to get test snapshots and check passing tests.
+2. run `npm run coverage` to get coverage and test results.
+
+```zsh
+----------------------------|---------|----------|---------|---------|-------------------
+File                        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------------------|---------|----------|---------|---------|-------------------
+All files                   |   64.62 |    22.58 |   70.37 |   67.39 |                   
+ src                        |       0 |        0 |       0 |       0 |                   
+  App.tsx                   |       0 |      100 |       0 |       0 | 7                 
+  index.tsx                 |       0 |      100 |     100 |       0 | 6-15              
+  reportWebVitals.ts        |       0 |        0 |       0 |       0 | 3-10              
+ src/assets/icons           |       0 |        0 |       0 |       0 |                   
+  types.ts                  |       0 |        0 |       0 |       0 |                   
+ src/assets/icons/Add       |     100 |      100 |     100 |     100 |                   
+  index.tsx                 |     100 |      100 |     100 |     100 |                   
+ src/assets/icons/Draggable |     100 |      100 |     100 |     100 |                   
+  index.tsx                 |     100 |      100 |     100 |     100 |                   
+ src/assets/icons/Remove    |     100 |      100 |     100 |     100 |                   
+  index.tsx                 |     100 |      100 |     100 |     100 |                   
+ src/assets/styles          |      50 |      100 |       0 |      50 |                   
+  globalStyles.ts           |   33.33 |      100 |       0 |   33.33 | 14-15             
+  theme.ts                  |     100 |      100 |     100 |     100 |                   
+  types.ts                  |       0 |        0 |       0 |       0 |                   
+ src/components/Description |     100 |      100 |     100 |     100 |                   
+  index.tsx                 |     100 |      100 |     100 |     100 |                   
+  styles.ts                 |     100 |      100 |     100 |     100 |                   
+ src/components/Designer    |     100 |      100 |     100 |     100 |                   
+  index.tsx                 |     100 |      100 |     100 |     100 |                   
+  styles.ts                 |     100 |      100 |     100 |     100 |                   
+ src/components/Pipeline    |      95 |     87.5 |   95.65 |   94.73 |                   
+  index.tsx                 |    91.3 |     87.5 |      90 |   90.47 | 34,42             
+  styles.ts                 |     100 |      100 |     100 |     100 |                   
+ src/constants              |     100 |      100 |     100 |     100 |                   
+  index.ts                  |     100 |      100 |     100 |     100 |                   
+ src/hooks                  |   83.33 |      100 |     100 |   83.33 |                   
+  useFetchNodes.ts          |   83.33 |      100 |     100 |   83.33 | 24-25             
+ src/mocks                  |     100 |      100 |     100 |     100 |                   
+  handlers.ts               |     100 |      100 |     100 |     100 |                   
+  server.ts                 |     100 |      100 |     100 |     100 |                   
+ src/pages                  |     100 |      100 |     100 |     100 |                   
+  PipelinePage.tsx          |     100 |      100 |     100 |     100 |                   
+  styles.ts                 |     100 |      100 |     100 |     100 |                   
+ src/services               |     100 |      100 |     100 |     100 |                   
+  api.ts                    |     100 |      100 |     100 |     100 |                   
+  types.ts                  |       0 |        0 |       0 |       0 |                   
+ src/utils/graph            |       0 |        0 |       0 |       0 |                   
+  index.ts                  |       0 |        0 |       0 |       0 | 50-112            
+----------------------------|---------|----------|---------|---------|-------------------
+```
+
+## Architecture Decisions
+
+General:
+
+- Only use leftlet map library, so you can check my code from scratch, I think that the usage of other libraries would
+  remove the purpose of the task.
+- The task in my point of view is well done, and it is possible to see some of my programmer skills specific on
+  the `Front-end`.
+- The data model is simple, and it is easy to understand, so I did not have to create any specific data structure algorithm.
+- I did not have much time for the task, with more time could have been done some improvements.
+
+Accessibility:
+
+- The app is fully accessible but some aria attributes could be added to improve it.
+- Markup is not fully semantic to be honest this could be improved.
+- `SEO` could be improved thou if we had multiple pages.
+
+Styles:
+
+- I opted to use `CSS` in `JS` since, in my opinion, it is cleaner and easy to scale and maintain.
+- Styles are fully responsive.
+- Properties are fully dynamic.
+- Variables are set on global variables.
+- I implemented a Theme to be easy to scale the team working on the project since you can just change the variable on
+  the theme to change all application styles.
+- I think that the code is well organized and readable, but it could have better UX on some elements for example.
+
+File Structure:
+
+- The file structure was built with these task necessities in mind and is fully scalable and easy to navigate and
+  maintain.
+- Every aspect of the respective folder lives inside, so it will be easy to onboard new team members.
+
+Code:
+
+- All `TS` `Types` and `Interfaces` needed to correctly handle type check, of course, that some types will be
+  automatically generated but `TS` assertion.
+- Some `Type Guards` have to be added in the future.
+- To connect to the APIs I used `React query` with a `facade design pattern` to extend implementation necessities.
+- components are decoupled from different concerns and follow every `React` component creation pattern and best
+  practices but more `Compoesition` could have been used for some components.
+- For the normal `map` itself I would suggest to use a `web worker` to outsource to a new thread heavy computation
+  tasks
+  without blocking the `event loop` or spend resources of browser main thread.
+- Code should be easily scalable and maintainable for future iterations of development.
+- `Unit tests` are implemented to test the code and to make sure that it is working as expected.
+- Should have more `integration tests` and `E2E tests` of-course but what is done should be more than enough to check how I test
+  my code.
+
+Documentation:
+
+- Did not have much time, so I had to choose between extensive documentation on each
+  folder like using [storybook](https://storybook.js.org/) or a quick explanation on `README.md`.
+- Please don't take it like I did not mind about documentation, just did not seem a priority, in my opinion, does not
+  mean that documentation is not important to the contrary.
