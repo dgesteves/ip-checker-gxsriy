@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeafletMap component renders correctly 1`] = `
+<div>
+  <section
+    role="application"
+  >
+    <div
+      class="sc-bczRLJ eWDuRx leaflet-container leaflet-touch leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
+      style="position: relative;"
+      tabindex="0"
+    >
+      <div
+        class="leaflet-pane leaflet-map-pane"
+        style="left: 0px; top: 0px;"
+      >
+        <div
+          class="leaflet-pane leaflet-tile-pane"
+        >
+          <div
+            class="leaflet-layer "
+            style="z-index: 1;"
+          >
+            <div
+              class="leaflet-tile-container leaflet-zoom-animated"
+              style="z-index: 18; left: 0px; top: 0px;"
+            >
+              <img
+                alt=""
+                class="leaflet-tile"
+                role="presentation"
+                src="https://c.tile.openstreetmap.org/17/116424/51608.png"
+                style="width: 256px; height: 256px; left: -103px; top: -180px;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="leaflet-pane leaflet-overlay-pane"
+        />
+        <div
+          class="leaflet-pane leaflet-shadow-pane"
+        />
+        <div
+          class="leaflet-pane leaflet-marker-pane"
+        >
+          <img
+            alt="Marker"
+            class="leaflet-marker-icon leaflet-zoom-hide leaflet-interactive"
+            role="button"
+            src="icon-location.svg"
+            style="left: 0px; top: 0px; z-index: 0;"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="leaflet-pane leaflet-tooltip-pane"
+        />
+        <div
+          class="leaflet-pane leaflet-popup-pane"
+        />
+      </div>
+      <div
+        class="leaflet-control-container"
+      >
+        <div
+          class="leaflet-top leaflet-left"
+        />
+        <div
+          class="leaflet-top leaflet-right"
+        />
+        <div
+          class="leaflet-bottom leaflet-left"
+        />
+        <div
+          class="leaflet-bottom leaflet-right"
+        >
+          <div
+            class="leaflet-control-attribution leaflet-control"
+          >
+            <a
+              href="https://leafletjs.com"
+              title="A JavaScript library for interactive maps"
+            >
+              Leaflet
+            </a>
+             
+            <span
+              aria-hidden="true"
+            >
+              |
+            </span>
+             © 
+            <a
+              href="https://www.openstreetmap.org/copyright"
+            >
+              OpenStreetMap
+            </a>
+             contributors
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

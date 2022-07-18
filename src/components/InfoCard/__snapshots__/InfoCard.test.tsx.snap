@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoCard component renders correctly 1`] = `
+<div>
+  <section
+    class="sc-bczRLJ bnjmjy"
+    data-testid="info-card"
+  >
+    <div
+      class="sc-gsnTZi etmVdA"
+    >
+      <h4
+        class="sc-dkzDqf feCLxN"
+      >
+        ip address
+      </h4>
+      <h3
+        class="sc-hKMtZM eEqlnS"
+      >
+        111.111.111.111
+      </h3>
+    </div>
+    <div
+      class="sc-gsnTZi etmVdA"
+    >
+      <h4
+        class="sc-dkzDqf feCLxN"
+      >
+        location
+      </h4>
+      <h3
+        class="sc-hKMtZM eEqlnS"
+      >
+        Uchikanda, JP 
+      </h3>
+    </div>
+    <div
+      class="sc-gsnTZi etmVdA"
+    >
+      <h4
+        class="sc-dkzDqf feCLxN"
+      >
+        timezone
+      </h4>
+      <h3
+        class="sc-hKMtZM eEqlnS"
+      >
+        UTC
+         
+        +09:00
+      </h3>
+    </div>
+    <div
+      class="sc-gsnTZi etmVdA"
+    >
+      <h4
+        class="sc-dkzDqf feCLxN"
+      >
+        isp
+      </h4>
+      <h3
+        class="sc-hKMtZM eEqlnS"
+      >
+        KDDI CORPORATION
+      </h3>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`InfoCard component renders correctly with no data 1`] = `<div />`;

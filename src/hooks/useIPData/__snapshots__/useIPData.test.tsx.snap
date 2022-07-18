@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useIPData hook should return the correct shape 1`] = `
+Object {
+  "IPData": undefined,
+  "IPError": null,
+  "IPIsLoading": false,
+  "IPIsSuccess": false,
+}
+`;
+
+exports[`useIPData hook should return the correct shape when error 1`] = `
+Object {
+  "IPData": undefined,
+  "IPError": null,
+  "IPIsLoading": false,
+  "IPIsSuccess": false,
+}
+`;
+
+exports[`useIPData hook should return the correct shape when loading 1`] = `
+Object {
+  "IPData": undefined,
+  "IPError": null,
+  "IPIsLoading": false,
+  "IPIsSuccess": false,
+}
+`;
+
+exports[`useIPData hook should return the correct shape when success 1`] = `
+Object {
+  "IPData": undefined,
+  "IPError": null,
+  "IPIsLoading": false,
+  "IPIsSuccess": false,
+}
+`;
