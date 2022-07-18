@@ -47,51 +47,65 @@ Task can be found in the [Task info directory](task/README.md)
 2. run `npm run coverage` to get coverage and test results.
 
 ```zsh
-----------------------------|---------|----------|---------|---------|-------------------
-File                        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-----------------------------|---------|----------|---------|---------|-------------------
-All files                   |   64.62 |    22.58 |   70.37 |   67.39 |                   
- src                        |       0 |        0 |       0 |       0 |                   
-  App.tsx                   |       0 |      100 |       0 |       0 | 7                 
-  index.tsx                 |       0 |      100 |     100 |       0 | 6-15              
-  reportWebVitals.ts        |       0 |        0 |       0 |       0 | 3-10              
- src/assets/icons           |       0 |        0 |       0 |       0 |                   
-  types.ts                  |       0 |        0 |       0 |       0 |                   
- src/assets/icons/Add       |     100 |      100 |     100 |     100 |                   
-  index.tsx                 |     100 |      100 |     100 |     100 |                   
- src/assets/icons/Draggable |     100 |      100 |     100 |     100 |                   
-  index.tsx                 |     100 |      100 |     100 |     100 |                   
- src/assets/icons/Remove    |     100 |      100 |     100 |     100 |                   
-  index.tsx                 |     100 |      100 |     100 |     100 |                   
- src/assets/styles          |      50 |      100 |       0 |      50 |                   
-  globalStyles.ts           |   33.33 |      100 |       0 |   33.33 | 14-15             
-  theme.ts                  |     100 |      100 |     100 |     100 |                   
-  types.ts                  |       0 |        0 |       0 |       0 |                   
- src/components/Description |     100 |      100 |     100 |     100 |                   
-  index.tsx                 |     100 |      100 |     100 |     100 |                   
-  styles.ts                 |     100 |      100 |     100 |     100 |                   
- src/components/Designer    |     100 |      100 |     100 |     100 |                   
-  index.tsx                 |     100 |      100 |     100 |     100 |                   
-  styles.ts                 |     100 |      100 |     100 |     100 |                   
- src/components/Pipeline    |      95 |     87.5 |   95.65 |   94.73 |                   
-  index.tsx                 |    91.3 |     87.5 |      90 |   90.47 | 34,42             
-  styles.ts                 |     100 |      100 |     100 |     100 |                   
- src/constants              |     100 |      100 |     100 |     100 |                   
-  index.ts                  |     100 |      100 |     100 |     100 |                   
- src/hooks                  |   83.33 |      100 |     100 |   83.33 |                   
-  useFetchNodes.ts          |   83.33 |      100 |     100 |   83.33 | 24-25             
- src/mocks                  |     100 |      100 |     100 |     100 |                   
-  handlers.ts               |     100 |      100 |     100 |     100 |                   
-  server.ts                 |     100 |      100 |     100 |     100 |                   
- src/pages                  |     100 |      100 |     100 |     100 |                   
-  PipelinePage.tsx          |     100 |      100 |     100 |     100 |                   
-  styles.ts                 |     100 |      100 |     100 |     100 |                   
- src/services               |     100 |      100 |     100 |     100 |                   
-  api.ts                    |     100 |      100 |     100 |     100 |                   
-  types.ts                  |       0 |        0 |       0 |       0 |                   
- src/utils/graph            |       0 |        0 |       0 |       0 |                   
-  index.ts                  |       0 |        0 |       0 |       0 | 50-112            
-----------------------------|---------|----------|---------|---------|-------------------
+--------------------------------|---------|----------|---------|---------|-------------------
+File                            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+--------------------------------|---------|----------|---------|---------|-------------------
+All files                       |   81.56 |       60 |    79.1 |   82.14 |                   
+ src                            |       0 |        0 |       0 |       0 |                   
+  App.tsx                       |       0 |      100 |       0 |       0 | 9-11              
+  index.tsx                     |       0 |      100 |     100 |       0 | 6-15              
+  reportWebVitals.ts            |       0 |        0 |       0 |       0 | 3-10              
+ src/assets/icons/ArrowIcon     |     100 |      100 |     100 |     100 |                   
+  index.tsx                     |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/assets/styles              |   71.42 |      100 |       0 |   71.42 |                   
+  globalStyles.ts               |   33.33 |      100 |       0 |   33.33 | 12-13             
+  theme.ts                      |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/components/InfoCard        |     100 |      100 |     100 |     100 |                   
+  index.tsx                     |     100 |      100 |     100 |     100 |                   
+  styles.ts                     |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/components/SearchForm      |     100 |      100 |     100 |     100 |                   
+  index.tsx                     |     100 |      100 |     100 |     100 |                   
+  styles.ts                     |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/constants/app              |     100 |      100 |     100 |     100 |                   
+  index.ts                      |     100 |      100 |     100 |     100 |                   
+ src/constants/tests            |     100 |      100 |     100 |     100 |                   
+  index.ts                      |     100 |      100 |     100 |     100 |                   
+ src/hooks/useIPData            |    90.9 |       75 |     100 |    90.9 |                   
+  index.tsx                     |    90.9 |       75 |     100 |    90.9 | 21                
+ src/hooks/useOwnIP             |     100 |      100 |     100 |     100 |                   
+  index.tsx                     |     100 |      100 |     100 |     100 |                   
+ src/layouts/Header             |     100 |      100 |     100 |     100 |                   
+  index.tsx                     |     100 |      100 |     100 |     100 |                   
+  styles.ts                     |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/lib/LeafletMap             |     100 |      100 |     100 |     100 |                   
+  index.tsx                     |     100 |      100 |     100 |     100 |                   
+  styles.ts                     |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/lib/RecenterView           |     100 |      100 |     100 |     100 |                   
+  index.tsx                     |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/lib/costumeMarker          |     100 |      100 |     100 |     100 |                   
+  index.ts                      |     100 |      100 |     100 |     100 |                   
+ src/mocks/handlers             |     100 |      100 |     100 |     100 |                   
+  index.ts                      |     100 |      100 |     100 |     100 |                   
+ src/mocks/server               |     100 |      100 |     100 |     100 |                   
+  index.ts                      |     100 |      100 |     100 |     100 |                   
+ src/pages/IPAddressTrackerPage |   47.36 |    45.45 |   18.18 |      50 |                   
+  index.tsx                     |   77.77 |    45.45 |   66.66 |   77.77 | 20,26             
+  styles.ts                     |      20 |      100 |       0 |   22.22 | 12-18             
+ src/services/ipifyApi          |     100 |      100 |     100 |     100 |                   
+  index.ts                      |     100 |      100 |     100 |     100 |                   
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+ src/services/wookieApi         |     100 |       50 |     100 |     100 |                   
+  index.ts                      |     100 |       50 |     100 |     100 | 8                 
+  types.ts                      |       0 |        0 |       0 |       0 |                   
+--------------------------------|---------|----------|---------|---------|-------------------
+Total                           |   77.77 |       75 |     100 |   77.77 |
 ```
 
 ## Architecture Decisions
