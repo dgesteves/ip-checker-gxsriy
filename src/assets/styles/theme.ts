@@ -6,6 +6,8 @@ export const colors: IColors = {
   white: "#FFFFFF",
   very_dark_gray: "hsl(0, 0%, 17%)",
   dark_gray: "hsl(0, 0%, 59%)",
+  gray: "hsl(0, 0%, 80%)",
+  light_gray: "hsl(0, 0%, 98%)",
   error: "hsl(0, 100%, 50%)",
 };
 

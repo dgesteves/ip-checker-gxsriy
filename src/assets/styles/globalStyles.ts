@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Rubik', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  input, button, textarea, select {
+  input, button {
     font: inherit;
   }
   p, h1, h2, h3, h4, h5, h6 {
