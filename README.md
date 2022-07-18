@@ -12,11 +12,17 @@
 
 ## LightHouse Report:
 
-<img width="565" alt="Screen Shot 2022-06-27 at 12 32 43 AM" src="https://user-images.githubusercontent.com/34245953/175841075-7996f151-e22c-449e-b2ac-af3acc867640.png">
+<img width="762" alt="Screen Shot 2022-07-18 at 12 17 54 PM" src="https://user-images.githubusercontent.com/34245953/179501276-c33dee03-f39d-4ca8-bf7e-129efebcc081.png">
+
 
 ## Application Solution Video:
 
-https://user-images.githubusercontent.com/34245953/175841325-950c5363-36fe-4659-80fa-0efc41fde6e0.mov
+
+https://user-images.githubusercontent.com/34245953/179502183-61287d48-fd99-4f63-9c26-00150efccd26.mov
+
+<img width="1916" alt="Screen Shot 2022-07-18 at 12 31 34 PM" src="https://user-images.githubusercontent.com/34245953/179502485-81ed8ca0-7f74-4842-a2dc-97db06c9d954.png">
+
+<img width="812" alt="Screen Shot 2022-07-18 at 12 32 28 PM" src="https://user-images.githubusercontent.com/34245953/179502586-f017e10a-d533-4cf5-b6b7-02a677cc23a7.png">
 
 
 ## Frontend Challenge
