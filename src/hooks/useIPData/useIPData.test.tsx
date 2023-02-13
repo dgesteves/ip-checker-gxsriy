@@ -87,7 +87,7 @@ describe("useIPData hook", () => {
     server.use(
       rest.get(`${WOOKIE_BASE_API_URL}`, (req, res, ctx) => {
         req.url.searchParams.set("ip", DEFAULT_IP_ADDRESS);
-        req.headers.set("Authorization", "Bearer WookieIP2022");
+        req.headers.set("Authorization", "Bearer SECRET");
         return res(ctx.status(200), ctx.json(GETIPDATA_RESPONSE));
       })
     );
