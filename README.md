@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/34245953/179502183-61287d48-fd99-4f63-
 <img width="812" alt="Screen Shot 2022-07-18 at 12 32 28 PM" src="https://user-images.githubusercontent.com/34245953/179502586-f017e10a-d533-4cf5-b6b7-02a677cc23a7.png">
 
 
-## Frontend Challenge
+## Frontend Task
 
 Task can be found in the [Task info directory](task/README.md)
 
